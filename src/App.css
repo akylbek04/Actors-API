@@ -1,0 +1,40 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+
+}
+
+.App{
+  height: auto;
+  width: 100%;
+  background-color: rgba(23, 22, 22, 0.914);
+}
+
+.navbar{
+  margin-top: 0;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .nav-link{
+  margin:  0 20px;
+  color: #fff;
+}
+
+nav .nav-link a i{
+  margin-right: 5px;
+}
+
+.spinner{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}

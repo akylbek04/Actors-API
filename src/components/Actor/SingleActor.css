@@ -1,0 +1,74 @@
+/*  */
+
+.card{
+    width: 18%;
+}
+
+.card-text {
+  position: absolute;
+  top: 2px;
+  left: 4px;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: rgb(238, 236, 236);
+  border-radius: 5px;
+  padding: 0 5px;
+}
+
+.favBtn {
+  position: absolute;
+  top:2px;
+  right: -2px;
+  padding: 0 5px;
+  border: none;
+  color: transparent;
+  background-color: transparent;
+}
+
+.modalBtn {
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  color: black;
+  background-color: transparent;
+  border: none;
+  width: 100%;
+}
+
+button #modalIcon {
+    color: #818282;
+    transition: ease-out 0.2s;
+}
+
+button #favIcon {
+    color: #f6f4f4c7;
+}
+
+button #popId{
+  position: relative;
+  bottom: -2px;
+  left: 4px;
+  color: rgb(171, 169, 169);
+}
+
+.popBtn{
+  background-color: transparent;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 12px;
+}
+
+button:hover {
+    #favIcon {
+        color: rgba(213, 26, 26, 0.745);
+    }
+    
+    #modalIcon {
+        color: rgba(41, 92, 244, 0.75);
+        filter: blur(0.1px);
+        box-shadow: 0 0 8px 8px rgba(238, 233, 233, 0.343) ;
+        background-color: rgba(238, 233, 233, 0.343);
+        border-radius: 49%;
+        transform: scale(1.2);
+  }
+}

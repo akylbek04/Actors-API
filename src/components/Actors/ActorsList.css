@@ -1,0 +1,8 @@
+.container-fluid{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 1px;
+}
